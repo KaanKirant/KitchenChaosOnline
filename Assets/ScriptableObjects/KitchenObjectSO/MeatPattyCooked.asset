@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10bbc6fd14563a244a7b9a8389be4369, type: 3}
-  m_Name: MeatPatyUncooked
+  m_Name: MeatPattyCooked
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObjectSO
-  prefab: {fileID: 8152374505231271990, guid: 07c6d1f62ee8dc94baca02e3546c2e85, type: 3}
-  sprite: {fileID: 21300000, guid: aa1bacc24dde76e47b2ec0dd4e82385b, type: 3}
-  objectName: Meat Patty Uncooked
+  prefab: {fileID: 8152374505231271990, guid: 8374351ca68e24847a37d5403e60c5c5, type: 3}
+  sprite: {fileID: 21300000, guid: f1f50c7ef90b19741b26f2040806cf56, type: 3}
+  objectName: Meat Patty Cooked

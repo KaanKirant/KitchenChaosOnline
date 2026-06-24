@@ -13,7 +13,7 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
 
     public virtual void InteractAlternate(Player player)
     {
-        Debug.LogError("BaseCounter.InteractAlternate() was called. This should be overridden in the derived class.");
+        //Debug.LogError("BaseCounter.InteractAlternate() was called. This should be overridden in the derived class.");
     }
 
     public Transform GetKitchenObjectFollowTransform()

@@ -231,7 +231,7 @@ MonoBehaviour:
   iconImage: {fileID: 909558937423793529}
   messageText: {fileID: 16539066880396017}
   successColor: {r: 0.32156864, g: 0.6784314, b: 0.21568628, a: 1}
-  failedColor: {r: 0.8396226, g: 0.011881431, b: 0.011881431, a: 0}
+  failedColor: {r: 0.8396226, g: 0.011881431, b: 0.011881431, a: 1}
   successSprite: {fileID: 21300000, guid: 6c562ac6d3e47ff4794df31886c6d864, type: 3}
   failedSprite: {fileID: 21300000, guid: 0d6e1281049dccc4189bf308b2ccf331, type: 3}
 --- !u!95 &540075431771596504

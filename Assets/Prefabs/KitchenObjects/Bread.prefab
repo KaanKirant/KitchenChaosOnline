@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8152374505231271990}
   - component: {fileID: 1393934173768351714}
   - component: {fileID: 3787093704229469432}
+  - component: {fileID: -6371928093493863749}
   m_Layer: 0
   m_Name: Bread
   m_TagString: Untagged
@@ -73,6 +74,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObject
   ShowTopMostFoldoutHeaderGroup: 1
   kitchenObjectSO: {fileID: 11400000, guid: 22b18387e45311f40becd0ccd3b40028, type: 2}
+--- !u!114 &-6371928093493863749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5245352210821455624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 592d42cdb1a19fe429603ad88b4dadd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowTransform
 --- !u!1001 &5134831053978172811
 PrefabInstance:
   m_ObjectHideFlags: 0

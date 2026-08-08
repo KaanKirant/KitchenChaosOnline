@@ -121,7 +121,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
         float moveDistance = moveSpeed * Time.deltaTime; // Calculate movement distance based on speed and time
         float playerRadius = .7f;
-        float playerHeight = 2f;
+        //float playerHeight = 2f;
         bool canMove = !Physics.BoxCast(transform.position, Vector3.one * playerRadius, moveDir, Quaternion.identity, moveDistance, collisionsLayerMask); // Check for obstacles in the movement direction
         if (!canMove)
         {

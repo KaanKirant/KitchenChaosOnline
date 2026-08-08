@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
 public class PlateKitchenObject : KitchenObject
@@ -33,13 +34,28 @@ public class PlateKitchenObject : KitchenObject
         }
         else
         {
-            kitchenObjectSOList.Add(kitchenObjectSO);
-            OnIngredientAdded?.Invoke(this, new OnIngredientAddedEventArgs
-            {
-                kitchenObjectSO = kitchenObjectSO
-            });
+            AddIngredientServerRpc(GameManagerMultiplayer.Instance.GetKitchenObjectSOIndex(kitchenObjectSO));
+
             return true;
         }
+    }
+
+    [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
+
+    private void AddIngredientServerRpc(int kitchenObjectSOIndex)
+    {
+        AddIngredientClientRpc(kitchenObjectSOIndex);
+    }
+
+    [Rpc(SendTo.Owner)]
+    private void AddIngredientClientRpc(int kitchenObjectSOIndex)
+    {
+        KitchenObjectSO kitchenObjectSO = GameManagerMultiplayer.Instance.GetKitchenObjectSOFromIndex(kitchenObjectSOIndex);
+        kitchenObjectSOList.Add(kitchenObjectSO);
+        OnIngredientAdded?.Invoke(this, new OnIngredientAddedEventArgs
+        {
+            kitchenObjectSO = kitchenObjectSO
+        });
     }
 
     public List<KitchenObjectSO> GetKitchenObjectSOList()

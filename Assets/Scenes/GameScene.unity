@@ -9052,7 +9052,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 168c27e8099d8004d8315110d8243648, type: 2}
     TickRate: 30
     ClientConnectionBufferTimeout: 10
-    ConnectionApproval: 0
+    ConnectionApproval: 1
     ConnectionData: 
     EnableTimeResync: 0
     TimeResyncInterval: 30
@@ -16882,11 +16882,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1963977519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bf8665ad187376488c5328e8886cba6, type: 3}
+  m_Script: {fileID: 11500000, guid: 782f740f649bd1b42ab64a47dd94fb6c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameOverUI
-  recipesDeliveredText: {fileID: 19309040}
-  playAgainButton: {fileID: 1835706711}
+  m_EditorClassIdentifier: Assembly-CSharp::HostDisconnectUI
+  playAgainButton: {fileID: 0}
 --- !u!1 &1967139991
 GameObject:
   m_ObjectHideFlags: 0

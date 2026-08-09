@@ -176,6 +176,11 @@ public class GameManager : NetworkBehaviour
         return isLocalPlayerReady;
     }
 
+    public bool IsWaitingToStart()
+    {
+        return state.Value == State.WaitingToStart;
+    }
+
     public float GetCountdownToStartTimer()
     {
         return countdownToStartTimer.Value;

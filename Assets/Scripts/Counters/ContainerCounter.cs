@@ -23,7 +23,7 @@ public class ContainerCounter : BaseCounter
         InteractLogicClientRpc();
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void InteractLogicClientRpc()
     {
         OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);

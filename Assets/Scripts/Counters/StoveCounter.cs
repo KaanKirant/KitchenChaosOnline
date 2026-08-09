@@ -178,14 +178,14 @@ public class StoveCounter : BaseCounter, IHasProgress
         SetFryingRecipeSOClientRpc(kitchenObjectSOIndex);
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void SetFryingRecipeSOClientRpc(int kitchenObjectSOIndex)
     {
         KitchenObjectSO kitchenObjectSO = GameManagerMultiplayer.Instance.GetKitchenObjectSOFromIndex(kitchenObjectSOIndex);
         fryingRecipeSO = GetFryingRecipeSOWithInput(kitchenObjectSO);
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void SetBurningRecipeSOClientRpc(int kitchenObjectSOIndex)
     {
         KitchenObjectSO kitchenObjectSO = GameManagerMultiplayer.Instance.GetKitchenObjectSOFromIndex(kitchenObjectSOIndex);

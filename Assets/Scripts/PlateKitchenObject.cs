@@ -47,7 +47,7 @@ public class PlateKitchenObject : KitchenObject
         AddIngredientClientRpc(kitchenObjectSOIndex);
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void AddIngredientClientRpc(int kitchenObjectSOIndex)
     {
         KitchenObjectSO kitchenObjectSO = GameManagerMultiplayer.Instance.GetKitchenObjectSOFromIndex(kitchenObjectSOIndex);

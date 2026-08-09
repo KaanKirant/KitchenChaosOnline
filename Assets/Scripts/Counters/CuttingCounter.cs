@@ -67,7 +67,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
         InteractLogicPlaceObjectOnCounterClientRpc();
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void InteractLogicPlaceObjectOnCounterClientRpc()
     {
         cuttingProgress = 0;
@@ -91,7 +91,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
         CutObjectClientRpc();
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void CutObjectClientRpc()
     {
         cuttingProgress++;

@@ -25,7 +25,7 @@ public class TrashCounter : BaseCounter
         InteractLogicClientRpc();
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void InteractLogicClientRpc()
     {
         OnAnyObjectTrashed?.Invoke(this, EventArgs.Empty);

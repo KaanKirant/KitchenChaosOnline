@@ -35,8 +35,8 @@ public class PlatesCounter : BaseCounter
     {
         SpawnPlateClientRpc();
     }
-    
-    [Rpc(SendTo.Owner)]
+
+    [Rpc(SendTo.Everyone)]
     private void SpawnPlateClientRpc()
     {
         plateSpawnAmount++;
@@ -63,7 +63,7 @@ public class PlatesCounter : BaseCounter
         InteractLogicClientRpc();
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void InteractLogicClientRpc()
     {
         plateSpawnAmount--;

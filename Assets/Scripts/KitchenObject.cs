@@ -29,7 +29,7 @@ public class KitchenObject : NetworkBehaviour
         SetKitchenObjectParentClientRpc(kitchenObjectParentNetworkObjectReference);
     }
 
-    [Rpc(SendTo.Owner)]
+    [Rpc(SendTo.Everyone)]
     private void SetKitchenObjectParentClientRpc(NetworkObjectReference kitchenObjectParentNetworkObjectReference)
     {
         kitchenObjectParentNetworkObjectReference.TryGet(out NetworkObject kitchenObjectParentNetworkObject);

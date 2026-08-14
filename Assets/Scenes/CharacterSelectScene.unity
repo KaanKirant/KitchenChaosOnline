@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 4793148702049456465}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &74337475
@@ -259,6 +259,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1910625974067013803, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2631820114544232283, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
@@ -558,7 +561,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 0.7176471, b: 0.043137256, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -783,6 +786,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1910625974067013803, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2631820114544232283, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
@@ -1717,7 +1723,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 0.7176471, b: 0.043137256, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3566,6 +3572,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1910625974067013803, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2631820114544232283, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
 --- !u!1 &2033821706
 GameObject:
@@ -3957,6 +3966,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e265bfc7eef08047afeb28fd4c51415, type: 3}
+--- !u!1 &4793148702049456465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7282758991566199387, guid: 4e265bfc7eef08047afeb28fd4c51415, type: 3}
+  m_PrefabInstance: {fileID: 4793148702049456464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9101806940694161838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4014,6 +4028,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1910625974067013803, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2631820114544232283, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 40e8ac0ffafc0a14295ff4f0446c79d5, type: 3}

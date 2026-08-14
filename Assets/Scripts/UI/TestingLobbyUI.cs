@@ -11,13 +11,11 @@ public class TestingLobbyUI : MonoBehaviour
     {
         createGameButton.onClick.AddListener(() =>
         {
-            Debug.Log("Create Game button clicked");
             GameManagerMultiplayer.Instance.StartHost();
             Loader.LoadNetwork(Loader.Scene.CharacterSelectScene);
         });
         joinGameButton.onClick.AddListener(() =>
         {
-            Debug.Log("Join Game button clicked");
             GameManagerMultiplayer.Instance.StartClient();
         });
 
